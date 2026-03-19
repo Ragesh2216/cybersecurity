@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Threat Intelligence — Stackly Cybersecurity</title>
+  <meta name="description" content="Stackly's AI-powered threat intelligence platform — real-time IOC feeds, APT tracking, dark web monitoring, vulnerability intelligence, and threat hunting services." />
+  <link rel="stylesheet" href="css/style.css" /><link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+<div id="preloader"><div class="preloader-inner"><img src="logo.webp" alt="Stackly Logo" class="preloader-logo" style="height:48px; width:auto; margin:0 auto;"><div class="preloader-bar"><div class="preloader-bar-fill"></div></div></div></div>
+
+<nav class="navbar">
+  <a href="index.html" class="navbar-brand"><img src="logo.webp" alt="Stackly Logo" style="height:36px; width:auto;"></a>
+  <div class="navbar-links">
+    <a href="index.html">Home</a><a href="about.html">About</a>
+    <a href="devices.html">Devices</a><a href="services.html">Services</a>
+    <a href="threat-intel.html" class="active">Threat Intel</a><a href="compliance.html">Compliance</a>
+    <a href="contact.html">Contact</a>
+    <div style="display:flex; gap:10px; margin-left:14px;">
+      <a href="login.html" class="btn btn-ghost btn-sm" style="padding:7px 16px; border-radius:var(--radius-pill);">Login</a>
+      <a href="register.html" class="btn btn-primary btn-sm" style="padding:7px 16px; border-radius:var(--radius-pill);">Register</a>
+    </div>
+  </div>
+  <button class="navbar-mobile-toggle" id="mobileToggle"><span></span><span></span><span></span></button>
+</nav>
+<div class="navbar-mobile" id="mobileNav">
+  <a href="index.html">Home</a><a href="about.html">About</a><a href="devices.html">Devices</a>
+  <a href="services.html">Services</a><a href="threat-intel.html">Threat Intel</a>
+  <a href="compliance.html">Compliance</a><a href="contact.html">Contact</a>
+  <div class="mobile-access-section" style="display:flex; flex-direction:column; gap:10px; padding:15px; border-top:1px solid rgba(255,255,255,0.05); margin-top:10px;">
+    <a href="login.html" class="btn btn-outline" style="width:100%; justify-content:center;">Login</a>
+    <a href="register.html" class="btn btn-primary" style="width:100%; justify-content:center;">Register</a>
+  </div>
+</div>
+
+<section class="page-hero">
+  <div class="page-hero-content">
+    <div class="section-tag" style="margin:0 auto 20px;">AI-Powered Intelligence</div>
+    <h1 class="section-title">Stackly <span>Threat Intelligence</span> Platform</h1>
+    <p class="section-subtitle" style="margin:0 auto 32px;">Real-time, actionable threat intelligence powered by machine learning — tracking APT groups, zero-day exploits, ransomware campaigns, and dark web data breaches across South Asia and globally.</p>
+    <div style="max-width:800px; margin:0 auto; border-radius:var(--radius); overflow:hidden; box-shadow:var(--shadow-card); border:1px solid var(--border);">
+      <img src="threat_img.webp" alt="Global Threat Monitoring Intelligence" style="width:100%; height:auto; display:block;">
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section class="section-sm" style="background:var(--bg-card);border-bottom:1px solid var(--border);">
+  <div class="container">
+    <div class="grid-4">
+      <div class="stat-block reveal"><span class="stat-value" data-target="50" data-suffix="M+">0M+</span><span class="stat-label">IOCs Tracked</span></div>
+      <div class="stat-block reveal reveal-delay-1"><span class="stat-value" data-target="1200" data-suffix="+">0+</span><span class="stat-label">APT Indicators</span></div>
+      <div class="stat-block reveal reveal-delay-2"><span class="stat-value" data-target="15" data-suffix=" min">0</span><span class="stat-label">Feed Update Interval</span></div>
+      <div class="stat-block reveal reveal-delay-3"><span class="stat-value" data-target="99" data-suffix="%">0%</span><span class="stat-label">Feed Accuracy Rate</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- INTELLIGENCE PILLARS -->
+<section class="section">
+  <div class="container">
+    <div class="text-center reveal">
+      <div class="section-tag">Intelligence Pillars</div>
+      <h2 class="section-title">Our <span>Threat Intelligence</span> Capabilities</h2>
+    </div>
+
+    <!-- PILLAR 01 -->
+    <div class="grid-2" style="gap:60px;margin-top:64px;align-items:center;">
+      <div class="reveal">
+        <span class="badge badge-primary" style="margin-bottom:16px;">PILLAR 01</span>
+        <h3 style="font-family:var(--font-heading);font-size:2rem;font-weight:700;margin-bottom:16px;line-height:1.25;">AI-Powered <span style="background:var(--gradient-primary);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">IOC Intelligence</span></h3>
+        <p style="color:var(--text-secondary);line-height:1.8;margin-bottom:20px;">Our machine learning platform ingests threat data from 4,000+ open-source feeds, honeypot networks, dark web forums, and government CERT channels — correlating indicators of compromise (IOCs) across IP addresses, domains, file hashes, and behavioral signatures in real time.</p>
+        <p style="color:var(--text-secondary);line-height:1.8;margin-bottom:28px;">Key achievement: Our STIX/TAXII 2.1 threat feed has an average false-positive rate of 0.3% — 5× better than industry standard — enabling automated blocking without alert fatigue in customer SIEM platforms.</p>
+        <div style="display:flex;gap:12px;flex-wrap:wrap;">
+          <div class="badge badge-primary">IP Reputation</div>
+          <div class="badge badge-purple">Domain Intelligence</div>
+          <div class="badge badge-blue">File Hash Feeds</div>
+        </div>
+      </div>
+      <div class="card reveal reveal-delay-2" style="padding:32px;">
+        <h4 style="font-family:var(--font-heading);font-weight:600;margin-bottom:20px;color:var(--text-secondary);font-size:0.9rem;">Live Feed Accuracy Metrics</h4>
+        <div style="display:flex;flex-direction:column;gap:14px;">
+          <div><div style="display:flex;justify-content:space-between;font-size:0.82rem;color:var(--text-secondary);margin-bottom:6px;"><span>Malicious IP Detection</span><span style="color:var(--primary);">99.7%</span></div><div style="height:6px;background:var(--border);border-radius:3px;overflow:hidden;"><div style="height:100%;width:99.7%;background:var(--gradient-primary);border-radius:3px;"></div></div></div>
+          <div><div style="display:flex;justify-content:space-between;font-size:0.82rem;color:var(--text-secondary);margin-bottom:6px;"><span>Phishing Domain Coverage</span><span style="color:var(--secondary-light);">98.4%</span></div><div style="height:6px;background:var(--border);border-radius:3px;overflow:hidden;"><div style="height:100%;width:98.4%;background:linear-gradient(135deg,#7c3aed,#a78bfa);border-radius:3px;"></div></div></div>
+          <div><div style="display:flex;justify-content:space-between;font-size:0.82rem;color:var(--text-secondary);margin-bottom:6px;"><span>Malware Hash Accuracy</span><span style="color:var(--accent);">99.9%</span></div><div style="height:6px;background:var(--border);border-radius:3px;overflow:hidden;"><div style="height:100%;width:99.9%;background:linear-gradient(135deg,#06b6d4,#0ea5e9);border-radius:3px;"></div></div></div>
+          <div><div style="display:flex;justify-content:space-between;font-size:0.82rem;color:var(--text-secondary);margin-bottom:6px;"><span>C2 Server Detection</span><span style="color:var(--accent2);">97.1%</span></div><div style="height:6px;background:var(--border);border-radius:3px;overflow:hidden;"><div style="height:100%;width:97.1%;background:linear-gradient(135deg,#f59e0b,#fbbf24);border-radius:3px;"></div></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider-gradient" style="margin:60px 0;"></div>
+
+    <!-- PILLAR 02 APT -->
+    <div class="grid-2" style="gap:60px;align-items:center;">
+      <div class="card reveal" style="padding:32px;order:2;">
+        <h4 style="font-family:var(--font-heading);font-weight:600;margin-bottom:20px;color:var(--text-secondary);">APT Tracking Pipeline</h4>
+        <div style="display:flex;flex-direction:column;gap:16px;">
+          <div style="display:flex;gap:12px;align-items:flex-start;padding:12px;background:var(--bg-glass2);border-radius:var(--radius-sm);border:1px solid var(--border);">
+            <span style="font-size:1.2rem;">🕵️</span>
+            <div><div style="font-size:0.85rem;font-weight:600;margin-bottom:3px;">TTP Mapping to MITRE ATT&amp;CK</div><div style="font-size:0.78rem;color:var(--text-muted);">Real-time mapping of adversary techniques to MITRE ATT&amp;CK framework navigation layers</div></div>
+          </div>
+          <div style="display:flex;gap:12px;align-items:flex-start;padding:12px;background:var(--bg-glass2);border-radius:var(--radius-sm);border:1px solid var(--border);">
+            <span style="font-size:1.2rem;">🌐</span>
+            <div><div style="font-size:0.85rem;font-weight:600;margin-bottom:3px;">Dark Web Monitoring</div><div style="font-size:0.78rem;color:var(--text-muted);">24/7 crawling of TOR forums, paste sites, and criminal marketplaces for leaked credentials and breach data</div></div>
+          </div>
+          <div style="display:flex;gap:12px;align-items:flex-start;padding:12px;background:var(--bg-glass2);border-radius:var(--radius-sm);border:1px solid var(--border);">
+            <span style="font-size:1.2rem;">📊</span>
+            <div><div style="font-size:0.85rem;font-weight:600;margin-bottom:3px;">Campaign Attribution</div><div style="font-size:0.78rem;color:var(--text-muted);">ML-based cluster analysis attributing attacks to known threat actors with confidence scoring</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="reveal reveal-delay-1" style="order:1;">
+        <span class="badge badge-purple" style="margin-bottom:16px;">PILLAR 02</span>
+        <h3 style="font-family:var(--font-heading);font-size:2rem;font-weight:700;margin-bottom:16px;line-height:1.25;">APT Group <span style="background:var(--gradient-primary);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">Tracking &amp; Attribution</span></h3>
+        <p style="color:var(--text-secondary);line-height:1.8;margin-bottom:20px;">Our threat research team monitors 150+ advanced persistent threat (APT) groups targeting Indian and South Asian organisations — including state-sponsored actors from China, Pakistan, North Korea, and Eastern Europe. We produce weekly threat actor dossiers and campaign reports.</p>
+        <p style="color:var(--text-secondary);line-height:1.8;">We have achieved 94% accurate attribution of attacks to specific APT groups, enabling clients to understand adversary motivations, capabilities, and likely next targets before an attack occurs.</p>
+      </div>
+    </div>
+
+    <div class="divider-gradient" style="margin:60px 0;"></div>
+
+    <!-- PILLAR 03 Vulnerability Intel -->
+    <div class="grid-2" style="gap:60px;align-items:center;">
+      <div class="reveal">
+        <span class="badge badge-blue" style="margin-bottom:16px;">PILLAR 03</span>
+        <h3 style="font-family:var(--font-heading);font-size:2rem;font-weight:700;margin-bottom:16px;line-height:1.25;">Vulnerability <span style="background:var(--gradient-primary);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">Intelligence &amp; Hunting</span></h3>
+        <p style="color:var(--text-secondary);line-height:1.8;margin-bottom:20px;">Stackly's vulnerability research team actively discovers and responsibly discloses zero-day vulnerabilities in enterprise software. Our CVE database integration provides enriched vulnerability context — including active exploitation likelihood, affected assets, and prioritised remediation guidance.</p>
+        <p style="color:var(--text-secondary);line-height:1.8;margin-bottom:28px;">Our proactive threat hunting teams leverage hypothesis-driven investigations and custom YARA/Sigma rules to find threats that evade automated detection — with an average dwell time reduction of 85% for clients on our threat hunting retainer.</p>
+        <a href="contact.html" class="btn btn-primary">Partner with Our Threat Lab →</a>
+      </div>
+      <div class="grid-3" style="gap:16px;">
+        <div class="card reveal" style="text-align:center;padding:20px;"><div style="font-size:1.8rem;margin-bottom:10px;">🔍</div><h4 class="card-title" style="font-size:0.9rem;">YARA Rules</h4></div>
+        <div class="card reveal reveal-delay-1" style="text-align:center;padding:20px;"><div style="font-size:1.8rem;margin-bottom:10px;">📋</div><h4 class="card-title" style="font-size:0.9rem;">Sigma Rules</h4></div>
+        <div class="card reveal reveal-delay-2" style="text-align:center;padding:20px;"><div style="font-size:1.8rem;margin-bottom:10px;">🗂️</div><h4 class="card-title" style="font-size:0.9rem;">CVE Enrichment</h4></div>
+        <div class="card reveal" style="text-align:center;padding:20px;"><div style="font-size:1.8rem;margin-bottom:10px;">🌑</div><h4 class="card-title" style="font-size:0.9rem;">Dark Web Intel</h4></div>
+        <div class="card reveal reveal-delay-1" style="text-align:center;padding:20px;"><div style="font-size:1.8rem;margin-bottom:10px;">🔗</div><h4 class="card-title" style="font-size:0.9rem;">STIX/TAXII</h4></div>
+        <div class="card reveal reveal-delay-2" style="text-align:center;padding:20px;"><div style="font-size:1.8rem;margin-bottom:10px;">⚡</div><h4 class="card-title" style="font-size:0.9rem;">Real-time Feeds</h4></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer><div class="container-wide">
+  <div class="footer-grid">
+    <div><img src="logo.webp" alt="Stackly" class="footer-brand" style="height:40px; width:auto; margin-bottom:14px;"><p class="footer-desc">Frontier cybersecurity threat intelligence — APT tracking, IOC feeds, dark web monitoring, and vulnerability research.</p><p style="font-size:.82rem;color:var(--text-muted);margin-bottom:16px;">📍 Stackly Salem, India</p><div class="footer-socials"><a href="404.html" class="footer-social-btn">𝕏</a><a href="404.html" class="footer-social-btn">in</a><a href="404.html" class="footer-social-btn">⌥</a></div></div>
+    <div><div class="footer-col-title">Security</div><div class="footer-links"><a href="devices.html">Security Appliances</a><a href="services.html">Managed Services</a><a href="threat-intel.html">Threat Intelligence</a><a href="compliance.html">Compliance</a></div></div>
+    <div><div class="footer-col-title">Company</div><div class="footer-links"><a href="about.html">About</a><a href="contact.html">Contact</a><a href="dashboard.html">Dashboard</a></div></div>
+    <div><div class="footer-col-title">Legal</div><div class="footer-links"><a href="404.html">Privacy</a><a href="404.html">Terms</a><a href="404.html">ISO 27001</a><a href="404.html">SOC 2 Type II</a></div></div>
+  </div>
+  <div class="footer-bottom"><span>© 2025 Stackly Cybersecurity. All rights reserved.</span><span>📍 Stackly Salem, India</span></div>
+</div></footer>
+<button id="scrollTop">↑</button>
+<script src="js/main.js"></script>
+<script>
+  const dt=document.getElementById('dropdownTrigger'),nd=document.getElementById('navDropdown');
+  if(dt){dt.addEventListener('click',e=>{e.stopPropagation();nd.classList.toggle('open')});document.addEventListener('click',()=>nd.classList.remove('open'));}
+</script>
+</body></html>

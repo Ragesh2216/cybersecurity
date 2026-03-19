@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Security Appliances &amp; Devices — Stackly Cybersecurity</title>
+  <meta name="description" content="Stackly's range of enterprise security appliances — next-gen firewalls, SIEM platforms, EDR consoles, HSMs, intrusion detection systems, and PAM solutions." />
+  <link rel="stylesheet" href="css/style.css" /><link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+<div id="preloader"><div class="preloader-inner"><img src="logo.webp" alt="Stackly Logo" class="preloader-logo" style="height:48px; width:auto; margin:0 auto;"><div class="preloader-bar"><div class="preloader-bar-fill"></div></div></div></div>
+
+<nav class="navbar">
+  <a href="index.html" class="navbar-brand"><img src="logo.webp" alt="Stackly Logo" style="height:36px; width:auto;"></a>
+  <div class="navbar-links">
+    <a href="index.html">Home</a><a href="about.html">About</a>
+    <a href="devices.html" class="active">Devices</a><a href="services.html">Services</a>
+    <a href="threat-intel.html">Threat Intel</a><a href="compliance.html">Compliance</a>
+    <a href="contact.html">Contact</a>
+    <div style="display:flex; gap:10px; margin-left:14px;">
+      <a href="login.html" class="btn btn-ghost btn-sm" style="padding:7px 16px; border-radius:var(--radius-pill);">Login</a>
+      <a href="register.html" class="btn btn-primary btn-sm" style="padding:7px 16px; border-radius:var(--radius-pill);">Register</a>
+    </div>
+  </div>
+  <button class="navbar-mobile-toggle" id="mobileToggle"><span></span><span></span><span></span></button>
+</nav>
+<div class="navbar-mobile" id="mobileNav">
+  <a href="index.html">Home</a><a href="about.html">About</a><a href="devices.html">Devices</a>
+  <a href="services.html">Services</a><a href="threat-intel.html">Threat Intel</a>
+  <a href="compliance.html">Compliance</a><a href="contact.html">Contact</a>
+  <div class="mobile-access-section" style="display:flex; flex-direction:column; gap:10px; padding:15px; border-top:1px solid rgba(255,255,255,0.05); margin-top:10px;">
+    <a href="login.html" class="btn btn-outline" style="width:100%; justify-content:center;">Login</a>
+    <a href="register.html" class="btn btn-primary" style="width:100%; justify-content:center;">Register</a>
+  </div>
+</div>
+
+<section class="page-hero">
+  <div class="page-hero-content">
+    <div class="section-tag" style="margin:0 auto 20px;">Security Hardware &amp; Software</div>
+    <h1 class="section-title">Enterprise <span>Security Appliances</span></h1>
+    <p class="section-subtitle" style="margin:0 auto 32px;">From next-generation firewalls to AI-powered SIEM platforms — Stackly security hardware and software combines defence-grade engineering with intelligent threat analytics.</p>
+    <div style="max-width:800px; margin:0 auto; border-radius:var(--radius); overflow:hidden; box-shadow:var(--shadow-card); border:1px solid var(--border);">
+      <img src="devices_img.webp" alt="Stackly Security Appliances Lineup" style="width:100%; height:auto; display:block;">
+    </div>
+  </div>
+</section>
+
+<section class="section filterable-section" id="products">
+  <div class="container">
+    <div class="text-center" style="margin-bottom:40px;">
+      <div class="filter-btn-group" style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;">
+        <button class="btn btn-ghost btn-sm filter-btn active" data-filter="all" style="background:var(--gradient-primary);color:#fff;border:none;">All Appliances</button>
+        <button class="btn btn-ghost btn-sm filter-btn" data-filter="network">Network Security</button>
+        <button class="btn btn-ghost btn-sm filter-btn" data-filter="endpoint">Endpoint</button>
+        <button class="btn btn-ghost btn-sm filter-btn" data-filter="identity">Identity &amp; Access</button>
+        <button class="btn btn-ghost btn-sm filter-btn" data-filter="siem">SIEM / SOAR</button>
+      </div>
+    </div>
+
+    <div class="grid-3">
+      <div class="card reveal" data-category="network">
+        <div style="height:180px;background:linear-gradient(135deg,rgba(0,212,170,0.1),rgba(124,58,237,0.1));border-radius:var(--radius-sm);display:flex;align-items:center;justify-content:center;font-size:4rem;margin-bottom:20px;border:1px solid var(--border);">🔥</div>
+        <div class="badge badge-primary" style="margin-bottom:12px;">Network Security</div>
+        <h3 class="card-title">ShieldWall NG-5000 Firewall</h3>
+        <p class="card-text">Next-generation firewall with deep packet inspection, SSL/TLS decryption, AI-based application control, and 40 Gbps throughput. Supports SD-WAN and zero trust network segmentation.</p>
+        <div style="margin-top:20px;padding-top:16px;border-top:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;">
+          <span style="font-size:1.2rem;font-weight:700;color:var(--primary);font-family:var(--font-heading);">₹4,80,000</span>
+          <a href="login.html?type=customer" class="btn btn-primary btn-sm">Get Quote</a>
+        </div>
+      </div>
+
+      <div class="card reveal reveal-delay-1" data-category="siem">
+        <div style="height:180px;background:linear-gradient(135deg,rgba(124,58,237,0.1),rgba(6,182,212,0.1));border-radius:var(--radius-sm);display:flex;align-items:center;justify-content:center;font-size:4rem;margin-bottom:20px;border:1px solid var(--border);">📊</div>
+        <div class="badge badge-purple" style="margin-bottom:12px;">SIEM / SOAR</div>
+        <h3 class="card-title">Sentinel AI-SIEM Platform</h3>
+        <p class="card-text">AI-powered Security Information and Event Management with behavioural analytics (UEBA), automated SOAR playbooks, and threat intelligence feeds. Ingests 100k+ EPS.</p>
+        <div style="margin-top:20px;padding-top:16px;border-top:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;">
+          <span style="font-size:1.2rem;font-weight:700;color:var(--secondary-light);font-family:var(--font-heading);">₹2,50,000</span>
+          <a href="login.html?type=customer" class="btn btn-primary btn-sm">Request Demo</a>
+        </div>
+      </div>
+
+      <div class="card reveal reveal-delay-2" data-category="endpoint">
+        <div style="height:180px;background:linear-gradient(135deg,rgba(245,158,11,0.1),rgba(0,212,170,0.1));border-radius:var(--radius-sm);display:flex;align-items:center;justify-content:center;font-size:4rem;margin-bottom:20px;border:1px solid var(--border);">💻</div>
+        <div class="badge badge-yellow" style="margin-bottom:12px;">Endpoint</div>
+        <h3 class="card-title">GuardAgent XDR Console</h3>
+        <p class="card-text">Extended Detection and Response (XDR) platform unifying endpoint, network, and cloud telemetry. AI threat hunting, automated remediation, and root cause analysis. Covers unlimited endpoints per license.</p>
+        <div style="margin-top:20px;padding-top:16px;border-top:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;">
+          <span style="font-size:1.2rem;font-weight:700;color:var(--accent2);font-family:var(--font-heading);">₹3,20,000</span>
+          <a href="login.html?type=customer" class="btn btn-primary btn-sm">Order Now</a>
+        </div>
+      </div>
+
+      <div class="card reveal" data-category="identity">
+        <div style="height:180px;background:linear-gradient(135deg,rgba(6,182,212,0.1),rgba(0,212,170,0.1));border-radius:var(--radius-sm);display:flex;align-items:center;justify-content:center;font-size:4rem;margin-bottom:20px;border:1px solid var(--border);">🔑</div>
+        <div class="badge badge-blue" style="margin-bottom:12px;">Identity &amp; Access</div>
+        <h3 class="card-title">VaultGuard HSM Appliance</h3>
+        <p class="card-text">FIPS 140-2 Level 3 certified Hardware Security Module for cryptographic key management, PKI operations, code signing, and TLS offloading. Quantum-resistant algorithm support.</p>
+        <div style="margin-top:20px;padding-top:16px;border-top:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;">
+          <span style="font-size:1.2rem;font-weight:700;color:var(--accent);font-family:var(--font-heading);">₹5,50,000</span>
+          <a href="login.html?type=customer" class="btn btn-primary btn-sm">Get Quote</a>
+        </div>
+      </div>
+
+      <div class="card reveal reveal-delay-1" data-category="network">
+        <div style="height:180px;background:linear-gradient(135deg,rgba(0,212,170,0.08),rgba(245,158,11,0.1));border-radius:var(--radius-sm);display:flex;align-items:center;justify-content:center;font-size:4rem;margin-bottom:20px;border:1px solid var(--border);">🌐</div>
+        <div class="badge badge-primary" style="margin-bottom:12px;">Network Security</div>
+        <h3 class="card-title">NetSensor IDS/IPS Appliance</h3>
+        <p class="card-text">Inline intrusion detection and prevention system with signature + anomaly-based detection, encrypted traffic inspection, and real-time threat blocking. 10 Gbps line-rate inspection.</p>
+        <div style="margin-top:20px;padding-top:16px;border-top:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;">
+          <span style="font-size:1.2rem;font-weight:700;color:var(--primary);font-family:var(--font-heading);">₹1,85,000</span>
+          <a href="login.html?type=customer" class="btn btn-primary btn-sm">Order Now</a>
+        </div>
+      </div>
+
+      <div class="card reveal reveal-delay-2" data-category="identity">
+        <div style="height:180px;background:linear-gradient(135deg,rgba(124,58,237,0.08),rgba(6,182,212,0.1));border-radius:var(--radius-sm);display:flex;align-items:center;justify-content:center;font-size:4rem;margin-bottom:20px;border:1px solid var(--border);">🧑‍💼</div>
+        <div class="badge badge-purple" style="margin-bottom:12px;">Identity &amp; Access</div>
+        <h3 class="card-title">PrivilegeVault PAM Solution</h3>
+        <p class="card-text">Privileged Access Management platform with session recording, just-in-time access provisioning, password vaulting, and multi-factor authentication for all privileged accounts.</p>
+        <div style="margin-top:20px;padding-top:16px;border-top:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;">
+          <span style="font-size:1.2rem;font-weight:700;color:var(--secondary-light);font-family:var(--font-heading);">₹2,20,000</span>
+          <a href="login.html?type=customer" class="btn btn-primary btn-sm">Request Demo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="background:var(--bg-card);border-top:1px solid var(--border);border-bottom:1px solid var(--border);">
+  <div class="container">
+    <div class="text-center reveal">
+      <div class="section-tag">Engineering</div>
+      <h2 class="section-title">Built on <span>Security Standards</span></h2>
+    </div>
+    <div class="grid-4" style="margin-top:48px;">
+      <div class="card reveal text-center"><div style="font-size:2rem;margin-bottom:12px;">🏅</div><h4 class="card-title">ISO 27001 Certified</h4><p class="card-text">All appliances developed and managed under ISO 27001:2022 information security management standards.</p></div>
+      <div class="card reveal reveal-delay-1 text-center"><div style="font-size:2rem;margin-bottom:12px;">🔐</div><h4 class="card-title">FIPS 140-2</h4><p class="card-text">Cryptographic modules validated to FIPS 140-2 Level 3 for use in regulated government and financial environments.</p></div>
+      <div class="card reveal reveal-delay-2 text-center"><div style="font-size:2rem;margin-bottom:12px;">⚙️</div><h4 class="card-title">Common Criteria EAL4+</h4><p class="card-text">Key network appliances evaluated to Common Criteria EAL4+ for enterprise and defence procurement requirements.</p></div>
+      <div class="card reveal reveal-delay-3 text-center"><div style="font-size:2rem;margin-bottom:12px;">🌐</div><h4 class="card-title">Cloud Integrated</h4><p class="card-text">All appliances stream telemetry to Stackly Cloud SOC in real-time via encrypted, authenticated channels.</p></div>
+    </div>
+  </div>
+</section>
+
+<footer><div class="container-wide">
+  <div class="footer-grid">
+    <div><img src="logo.webp" alt="Stackly" class="footer-brand" style="height:40px; width:auto; margin-bottom:14px;"><p class="footer-desc">Enterprise-grade security hardware and software — firewalls, SIEM platforms, XDR, HSM, and identity protection.</p><p style="font-size:.82rem;color:var(--text-muted);margin-bottom:16px;">📍 Stackly Salem, India</p><div class="footer-socials"><a href="404.html" class="footer-social-btn">𝕏</a><a href="404.html" class="footer-social-btn">in</a><a href="404.html" class="footer-social-btn">⌥</a></div></div>
+    <div><div class="footer-col-title">Security</div><div class="footer-links"><a href="devices.html">Security Appliances</a><a href="services.html">Managed Services</a><a href="threat-intel.html">Threat Intelligence</a></div></div>
+    <div><div class="footer-col-title">Company</div><div class="footer-links"><a href="about.html">About</a><a href="contact.html">Contact</a><a href="dashboard.html">Dashboard</a></div></div>
+    <div><div class="footer-col-title">Legal</div><div class="footer-links"><a href="404.html">Privacy</a><a href="404.html">Terms</a><a href="404.html">ISO 27001</a><a href="404.html">SOC 2 Type II</a></div></div>
+  </div>
+  <div class="footer-bottom"><span>© 2025 Stackly Cybersecurity. All rights reserved.</span><span>📍 Stackly Salem, India</span></div>
+</div></footer>
+<button id="scrollTop">↑</button>
+<script src="js/main.js"></script>
+<script>
+  const dt=document.getElementById('dropdownTrigger'),nd=document.getElementById('navDropdown');
+  if(dt){dt.addEventListener('click',e=>{e.stopPropagation();nd.classList.toggle('open')});document.addEventListener('click',()=>nd.classList.remove('open'));}
+  document.querySelectorAll('.filter-btn').forEach(btn=>{btn.addEventListener('click',()=>{document.querySelectorAll('.filter-btn').forEach(b=>{b.style.background='';b.style.color='';b.style.border='';});btn.style.background='var(--gradient-primary)';btn.style.color='#fff';btn.style.border='none';});});
+</script>
+</body></html>
